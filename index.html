@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Data Journalism</title>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="icon" href="Images/d3_logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="navbar navbar-expand-lg navbar-expand ">
+      <div class="col-xs-12 col-md-12">
+        <h2 id="sty">BRFSS with D3</h2>
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-9">
+          <div id="scatter">
+          <!-- We append our chart here. -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12  col-md-9">
+          <div class="article">
+            <h2><b>Behavioral Risk Factor Surveillance System</b></h2>
+            <p><b>Description: </b>
+            The Behavioral Risk Factor Surveillance System (BRFSS) is the nation's premier system of health-related telephone surveys that collect state-level data from non-institutionalized U.S. adult residents regarding their health-related risk behaviors, chronic health conditions, and use of preventive services. Coordinated by the CDC and administered annually by each state, there are three categories of questions:</p>
+
+            <p><b><li>A standard set of core questions that each state is required to include in the survey.</li></b>
+            <b><li>Several modules of optional questions that each state can include or exclude based upon programmatic needs.</li></b>
+            <b><li>Customized questions drafted in-house by individual states to gather information on specific populations or to address state-specific health issues.</li></b>
+            <br>
+            <b></b>
+            <p>Additionally, BRFSS allows for geographic flexibility.  Populations can be targeted at the state level or as fine as census tract level.  The data are collected and analyzed with a standardized methodology developed by the CDC which allows Louisiana to validly compare our state estimates to those collected in any other state or to the US as a whole.  BRFSS has become a powerful tool for allocation of funds that target and build successful health promotion activities. <p>
+            <p>This report presents results from the specified years of BRFSS for the state of Louisiana. All civilian, non-institutionalized state residents aged 18 and older with a household landline telephone are eligible for survey participation. Respondents were selected randomly from the sample of eligible individuals.</p>
+            <p>The primary purpose of the survey is to provide population-based estimates for chronic disease and the associated risk factors for Louisiana residents. The results of the survey are used by public health agencies, non-profit organizations, academic institutions, state agencies, and others to develop initiatives and pro-grams to improve the health of Louisiana residents.</p><br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <footer class="footer">
+    <span class="bottom">
+      <p style="font-size: 12px; color: white; text-align: center;">© 2020<br> Sura Baghirova<p>
+    </span>
+  </footer>
+  
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script> 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="assets/js/app.js" type="text/javascript"></script>
+
+</body>
+
+</html>
